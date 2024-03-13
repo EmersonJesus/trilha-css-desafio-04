@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 459px;
+    background: url(../images/banner1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+header h1 {
+    font-family: 'Luckiest Guy', sans-serif;
+    width: 312px;
+    height: 112px;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+header p {
+    width: 757px;
+    font-weight: 400;
+}
+
+header .windows{
+    width: 205px;
+    height: 44px;
+    border-radius: 28px;
+    border: none;
+    color: #23272A;
+    background-color: #fff;
+}
