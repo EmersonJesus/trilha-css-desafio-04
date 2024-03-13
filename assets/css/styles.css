@@ -14,6 +14,11 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
     width: 100%;
     height: 459px;
     background: url(../images/banner1.png);
@@ -26,7 +31,6 @@ header {
 header h1 {
     font-family: 'Luckiest Guy', sans-serif;
     width: 312px;
-    height: 112px;
     font-size: 3.5rem;
     font-weight: 400;
 }
@@ -43,4 +47,92 @@ header .windows{
     border: none;
     color: #23272A;
     background-color: #fff;
+}
+
+header .nav {
+    width: 281px;
+    height: 44px;
+    border-radius: 28px;
+    border: none;
+    background-color: #23272A;
+    color: #fff;
+}
+
+header .button {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+main section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 448px;
+}
+
+main section h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    width: 329px;
+    justify-self: end;
+}
+
+main section p {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 348px;
+    height: 88px;
+}
+
+section .section-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+main .column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 744px;
+}
+
+.column h1 {
+    font-family: 'Luckiest Guy', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    width: 608px;
+}
+
+.column p {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 802px;
+}
+
+.column .section-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+footer {
+    width: 100%;
+    height: 134px;
+    background-color: #23272A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 230px;
+    height: 43px;
 }
