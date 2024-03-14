@@ -2,4 +2,7 @@
 Bem vindo(a) ao quarto desafio da Trilha de CSS da DIO! Neste Desafio você colocará a mão na massa e irá reproduzir a página da incrível plataforma do Discord colocando em prática todos os conceitos aprendidos até aqui, principalmente sobre Responsividade no CSS.
 
 ## Resultado - Telas maiores
-![site-discord](https://github.com/LinusWeb/trilha-css-desafio-04/assets/20049294/c9c8b386-6d91-45e9-825e-080379710cb5)
+![site-discord](https://i.imgur.com/HEg8rFm.png)
+
+## Resultado - Telas menores
+![site-discord](https://i.imgur.com/WtRafwR.png).
